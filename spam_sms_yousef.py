@@ -60,7 +60,7 @@ if a == "1":
         req = requests.post("https://api.behtarino.com/api/v1/businesses/lqfbvhcgvy/vitrin_verification/", headers = headers, json = json)
         print(req.text)
 
-        time.sleep(3)
+        time.sleep(0.5)
 
         headers = {
         "user-agent": "Mozilla/5.0 (Linux; Android 9; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.111 Mobile Safari/537.36",
